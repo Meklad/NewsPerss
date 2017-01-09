@@ -1,0 +1,39 @@
+@font-face {
+	font-family: test;
+	src: url("fonts/NotoKufiArabic-Regular.ttf");
+}
+
+@font-face {
+	font-family: test2;
+	src: url("fonts/NotoKufiArabic-Bold.ttf");
+}
+
+html *
+{
+    font-family: test;
+}
+
+body {
+  ...
+  .wrapper {
+    ...
+    .navbar a {
+      text-transform: uppercase;
+      font: 14px @brand-font;
+    }
+  }
+}
+
+.header1 {
+	font-family: test2;
+	text-align: right;
+}
+
+ul.nav a:hover { color: white !important; }
+
+ul.nav a:hover { background-color: #2dbfff !important; }
+
+.centerS {
+  max-width: 400px;
+  max-height: 300px;
+}
